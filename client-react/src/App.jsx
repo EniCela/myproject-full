@@ -8,8 +8,6 @@ import Login from './components/authentication/Login';
 import Register from './components/authentication/Register';
 import Index1 from './components/items/Index1';
 import Index2 from './components/items/Index2';
-import Index3 from './components/items/Index3';
-import Index4 from './components/items/Index4';
 
 axios.interceptors.request.use(function(config){
     const token = localStorage.getItem('auth_token');
